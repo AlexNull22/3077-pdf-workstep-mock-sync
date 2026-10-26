@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "tests_run": 24,
+  "passed": 24,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "elapsed_seconds": 3.437116,
+  "per_test": [
+    {
+      "test": "test_01_official_pdf_matches_all_independent_expected_fields",
+      "status": "passed",
+      "elapsed_seconds": 0.012178
+    },
+    {
+      "test": "test_02_independent_pdf_reader_three_pages_four_searchable_steps_each",
+      "status": "passed",
+      "elapsed_seconds": 0.009542
+    },
+    {
+      "test": "test_03_cross_page_step_continuation_and_whitespace_join",
+      "status": "passed",
+      "elapsed_seconds": 0.007965
+    },
+    {
+      "test": "test_04_document_and_revision_must_match_across_pages",
+      "status": "passed",
+      "elapsed_seconds": 0.030536
+    },
+    {
+      "test": "test_05_required_markers_cannot_be_missing_or_duplicated",
+      "status": "passed",
+      "elapsed_seconds": 0.13714
+    },
+    {
+      "test": "test_06_step_ids_are_unique_nonzero_and_strictly_increasing",
+      "status": "passed",
+      "elapsed_seconds": 0.043474
+    },
+    {
+      "test": "test_07_missing_end_instruction_and_nested_step_reject",
+      "status": "passed",
+      "elapsed_seconds": 0.020561
+    },
+    {
+      "test": "test_08_unknown_outside_text_and_reserved_body_markers_reject",
+      "status": "passed",
+      "elapsed_seconds": 0.015466
+    },
+    {
+      "test": "test_09_blank_scanned_encrypted_and_invalid_pdf_reject",
+      "status": "passed",
+      "elapsed_seconds": 0.019911
+    },
+    {
+      "test": "test_10_source_size_limit_and_unsupported_extension_reject",
+      "status": "passed",
+      "elapsed_seconds": 0.004211
+    },
+    {
+      "test": "test_11_endpoint_validation_blocks_non_loopback_auth_query_and_paths",
+      "status": "passed",
+      "elapsed_seconds": 0.001319
+    },
+    {
+      "test": "test_12_real_http_marker_and_redirect_refused_without_target_request",
+      "status": "passed",
+      "elapsed_seconds": 0.122779
+    },
+    {
+      "test": "test_13_real_snapshot_etags_exact_payloads_and_invalid_records",
+      "status": "passed",
+      "elapsed_seconds": 0.140557
+    },
+    {
+      "test": "test_14_default_plan_cli_has_create4_update4_unchanged4_and_zero_put",
+      "status": "passed",
+      "elapsed_seconds": 0.360159
+    },
+    {
+      "test": "test_15_apply_real_http_eight_verified_writes_and_preserved_extra",
+      "status": "passed",
+      "elapsed_seconds": 0.388229
+    },
+    {
+      "test": "test_16_second_fresh_plan_is_twelve_unchanged_with_zero_new_write",
+      "status": "passed",
+      "elapsed_seconds": 0.45228
+    },
+    {
+      "test": "test_17_stale_source_rejected_before_journal_or_remote_write",
+      "status": "passed",
+      "elapsed_seconds": 0.109184
+    },
+    {
+      "test": "test_18_stale_remote_snapshot_even_extra_change_blocks_all_writes",
+      "status": "passed",
+      "elapsed_seconds": 0.107223
+    },
+    {
+      "test": "test_19_tampered_plan_payload_actions_etag_and_endpoint_block_writes",
+      "status": "passed",
+      "elapsed_seconds": 0.170738
+    },
+    {
+      "test": "test_20_before_write_503_records_incomplete_without_committed_change",
+      "status": "passed",
+      "elapsed_seconds": 0.126041
+    },
+    {
+      "test": "test_21_after_write_503_is_recovered_only_by_matching_real_get",
+      "status": "passed",
+      "elapsed_seconds": 0.37582
+    },
+    {
+      "test": "test_22_partial_failure_preserves_completed_steps_and_replan_resumes_safely",
+      "status": "passed",
+      "elapsed_seconds": 0.496028
+    },
+    {
+      "test": "test_23_real_412_concurrent_creation_never_overwrites_other_payload",
+      "status": "passed",
+      "elapsed_seconds": 0.140802
+    },
+    {
+      "test": "test_24_existing_outputs_and_real_junction_paths_refuse_before_put",
+      "status": "passed",
+      "elapsed_seconds": 0.077434
+    }
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "system": "Windows",
+    "pypdf": "6.10.0",
+    "reportlab": "4.4.9"
+  },
+  "code_sha256": {
+    "3077_提取同步引擎.py": "acbda8d1ecc404c5b572ef5fc6fa4be98e83406b6ff78df1e7aa8f350f20a0c9",
+    "3077_本地模拟接口.py": "07627afa9fc2598ebd3c3f3ed4953734ba7c4be7ce3dbf7c5811b934058bda13",
+    "3077_自造文档.py": "2de18cc2d8cbce6f5f4957be86629bc5e1e430f1600f93f164e03897b7638541",
+    "3077_验收测试.py": "05cd188f3550d20ac9de00573172413f75073367878ed671ac033aebc8691594"
+  },
+  "code_unchanged_during_tests": true,
+  "source_sha256": "2d249d31f503287a4438f3a6c3f78be15318b0f4cd4d1bd9830c12971ed766fa",
+  "source_unchanged": true,
+  "synthetic_only": true,
+  "real_http_loopback_tested": true,
+  "external_system_connected": false,
+  "expected_flow": {
+    "extracted_steps": 12,
+    "initial_remote_records": 9,
+    "create": 4,
+    "update": 4,
+    "unchanged": 4,
+    "preserved_extra": 1,
+    "final_remote_records": 13
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "endpoint": "http://127.0.0.1:5675",
+  "source_sha256": "2d249d31f503287a4438f3a6c3f78be15318b0f4cd4d1bd9830c12971ed766fa",
+  "document_id": "DEMO-WI-001",
+  "revision": "A",
+  "remote_snapshot_sha256": "58cb84633d56d8acb28af612c2102b0969a75932b4e7f542d507a7d68c52103e",
+  "desired_sha256": "aba9ed47f1485352b5de4f11a05dd8188ed18d899f8bb76a1123a9b83a14c1e5",
+  "operations": [
+    {
+      "key": "DEMO-WI-001:001",
+      "action": "unchanged",
+      "expected_etag": "\"7770e9cb8ad44f047656427a85e6efc29266256e71a7bd57a498f76ec6739b2f\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "001",
+        "title": "Open the fictional training panel",
+        "source_pages": [
+          1
+        ],
+        "instructions": "Open the fictional training panel described in this exercise. Keep the session in demonstration mode and do not connect to any operational system."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:002",
+      "action": "unchanged",
+      "expected_etag": "\"785d8af970e85c005d66ee4a727e28f08b9f2eb21cf82671da385c8046c914b8\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "002",
+        "title": "Select the practice record",
+        "source_pages": [
+          1
+        ],
+        "instructions": "Select the sample record named TRAINING-ALPHA from the fictional record list. Confirm that its visible label says synthetic training data."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:003",
+      "action": "unchanged",
+      "expected_etag": "\"b3b168a15c4a48f29a4ae88bff7d5f4126a6070f123e425ad8f87af3648f4426\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "003",
+        "title": "Check the demonstration label",
+        "source_pages": [
+          1
+        ],
+        "instructions": "Read the demonstration label on the practice record. Compare the displayed document code with DEMO-WI-001 and leave all real records unchanged."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:004",
+      "action": "unchanged",
+      "expected_etag": "\"8813deec11cb10abd4aa6185121a952e2f6edf14dda198330ee8830cc8ec4b09\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "004",
+        "title": "Enter the sample session code",
+        "source_pages": [
+          1
+        ],
+        "instructions": "Enter the sample session code PRACTICE-001 in the training-only text field. Review the characters before continuing to the next fictional step."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:005",
+      "action": "unchanged",
+      "expected_etag": "\"9844f9c910b229e3b3e12cba4a45a476419e8a2c397e7a6a52793a142164274e\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "005",
+        "title": "Review the simulated step list",
+        "source_pages": [
+          2
+        ],
+        "instructions": "Review the simulated step list in the training panel. Confirm that the list begins with step 001 and contains twelve fictional steps."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:006",
+      "action": "unchanged",
+      "expected_etag": "\"55de2ad7bded65806acdf70112e0773dd5d94998b753e476ef7f60cfa1fd26ff\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "006",
+        "title": "Mark the practice item reviewed",
+        "source_pages": [
+          2
+        ],
+        "instructions": "Set the practice-only review flag for the selected sample item. Add no real approval or production status to any external application."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:007",
+      "action": "unchanged",
+      "expected_etag": "\"44c63112fd280e5da4e691bb9b175f1b17c8f50ccf1602e9a8176323b5a00ed5\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "007",
+        "title": "Add a training-only comment",
+        "source_pages": [
+          2
+        ],
+        "instructions": "Add the comment Training example reviewed to the sample comment field. Keep personal details and real customer information out of the exercise."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:008",
+      "action": "unchanged",
+      "expected_etag": "\"b0f7edcb2865d1c9c945c02f326b8cadc4bf69b4a122163a7a01fc4a33bd3e27\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "008",
+        "title": "Save the temporary practice result",
+        "source_pages": [
+          2
+        ],
+        "instructions": "Save the fictional practice result in the demonstration session. Confirm that the training panel displays the sample saved indicator."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:009",
+      "action": "unchanged",
+      "expected_etag": "\"dec0caace6475353e9fc02be6308c10629f514fff708fe10e09207d49809f2c8\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "009",
+        "title": "Reopen the saved practice result",
+        "source_pages": [
+          3
+        ],
+        "instructions": "Reopen the saved sample result from the fictional session history. Verify that the practice session code and training-only comment are visible."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:010",
+      "action": "unchanged",
+      "expected_etag": "\"5fdba1e40f0c3e65ceccad0ee276f4f290b870e56bbf1372e7c4506794a1b0df\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "010",
+        "title": "Compare the displayed sample code",
+        "source_pages": [
+          3
+        ],
+        "instructions": "Compare the displayed sample code with PRACTICE-001. If the characters differ in this exercise, record the difference in a training-only note."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:011",
+      "action": "unchanged",
+      "expected_etag": "\"224b53af2a28bb911d19740811a879d19fc0f4ff5f5242c8b5aa2a195e38a818\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "011",
+        "title": "Record the training completion note",
+        "source_pages": [
+          3
+        ],
+        "instructions": "Record the note Synthetic exercise complete in the sample result. This note documents only the fictional training session and is not a real work approval."
+      }
+    },
+    {
+      "key": "DEMO-WI-001:012",
+      "action": "unchanged",
+      "expected_etag": "\"bac6ced2566b99142cd2338145bb38b7a37820cdc9af1c6c0543253ba607b25d\"",
+      "payload": {
+        "document_id": "DEMO-WI-001",
+        "revision": "A",
+        "step_id": "012",
+        "title": "Close the fictional training session",
+        "source_pages": [
+          3
+        ],
+        "instructions": "Review the saved practice result one final time and close the fictional session. The exercise ends without sending information to a real operational system."
+      }
+    }
+  ],
+  "unmodified_extra_keys": [
+    "DEMO-WI-001:999"
+  ]
+}

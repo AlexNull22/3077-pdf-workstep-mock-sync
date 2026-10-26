@@ -1,0 +1,132 @@
+{
+  "DEMO-WI-001:001": {
+    "document_id": "DEMO-WI-001",
+    "revision": "A",
+    "step_id": "001",
+    "title": "Open the fictional training panel",
+    "source_pages": [
+      1
+    ],
+    "instructions": "Open the fictional training panel described in this exercise. Keep the session in demonstration mode and do not connect to any operational system."
+  },
+  "DEMO-WI-001:002": {
+    "document_id": "DEMO-WI-001",
+    "revision": "A",
+    "step_id": "002",
+    "title": "Select the practice record",
+    "source_pages": [
+      1
+    ],
+    "instructions": "Select the sample record named TRAINING-ALPHA from the fictional record list. Confirm that its visible label says synthetic training data."
+  },
+  "DEMO-WI-001:003": {
+    "document_id": "DEMO-WI-001",
+    "revision": "A",
+    "step_id": "003",
+    "title": "Check the demonstration label",
+    "source_pages": [
+      1
+    ],
+    "instructions": "Read the demonstration label on the practice record. Compare the displayed document code with DEMO-WI-001 and leave all real records unchanged."
+  },
+  "DEMO-WI-001:004": {
+    "document_id": "DEMO-WI-001",
+    "revision": "A",
+    "step_id": "004",
+    "title": "Enter the sample session code",
+    "source_pages": [
+      1
+    ],
+    "instructions": "Enter the sample session code PRACTICE-001 in the training-only text field. Review the characters before continuing to the next fictional step."
+  },
+  "DEMO-WI-001:005": {
+    "document_id": "DEMO-WI-001",
+    "instructions": "Review the simulated step list in the training panel. Confirm that the list begins with step 001 and contains twelve fictional steps.",
+    "revision": "A",
+    "source_pages": [
+      2
+    ],
+    "step_id": "005",
+    "title": "Review the simulated step list"
+  },
+  "DEMO-WI-001:006": {
+    "document_id": "DEMO-WI-001",
+    "instructions": "Set the practice-only review flag for the selected sample item. Add no real approval or production status to any external application.",
+    "revision": "A",
+    "source_pages": [
+      2
+    ],
+    "step_id": "006",
+    "title": "Mark the practice item reviewed"
+  },
+  "DEMO-WI-001:007": {
+    "document_id": "DEMO-WI-001",
+    "instructions": "Add the comment Training example reviewed to the sample comment field. Keep personal details and real customer information out of the exercise.",
+    "revision": "A",
+    "source_pages": [
+      2
+    ],
+    "step_id": "007",
+    "title": "Add a training-only comment"
+  },
+  "DEMO-WI-001:008": {
+    "document_id": "DEMO-WI-001",
+    "instructions": "Save the fictional practice result in the demonstration session. Confirm that the training panel displays the sample saved indicator.",
+    "revision": "A",
+    "source_pages": [
+      2
+    ],
+    "step_id": "008",
+    "title": "Save the temporary practice result"
+  },
+  "DEMO-WI-001:999": {
+    "document_id": "DEMO-WI-001",
+    "revision": "A",
+    "step_id": "999",
+    "title": "Retained local training record",
+    "instructions": "Keep this synthetic remote-only record unchanged.",
+    "source_pages": [
+      1
+    ]
+  },
+  "DEMO-WI-001:009": {
+    "document_id": "DEMO-WI-001",
+    "instructions": "Reopen the saved sample result from the fictional session history. Verify that the practice session code and training-only comment are visible.",
+    "revision": "A",
+    "source_pages": [
+      3
+    ],
+    "step_id": "009",
+    "title": "Reopen the saved practice result"
+  },
+  "DEMO-WI-001:010": {
+    "document_id": "DEMO-WI-001",
+    "instructions": "Compare the displayed sample code with PRACTICE-001. If the characters differ in this exercise, record the difference in a training-only note.",
+    "revision": "A",
+    "source_pages": [
+      3
+    ],
+    "step_id": "010",
+    "title": "Compare the displayed sample code"
+  },
+  "DEMO-WI-001:011": {
+    "document_id": "DEMO-WI-001",
+    "instructions": "Record the note Synthetic exercise complete in the sample result. This note documents only the fictional training session and is not a real work approval.",
+    "revision": "A",
+    "source_pages": [
+      3
+    ],
+    "step_id": "011",
+    "title": "Record the training completion note"
+  },
+  "DEMO-WI-001:012": {
+    "document_id": "DEMO-WI-001",
+    "instructions": "Review the saved practice result one final time and close the fictional session. The exercise ends without sending information to a real operational system.",
+    "revision": "A",
+    "source_pages": [
+      3
+    ],
+    "step_id": "012",
+    "title": "Close the fictional training session"
+  }
+}

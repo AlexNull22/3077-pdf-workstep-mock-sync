@@ -1,0 +1,105 @@
+{
+  "source_sha256": "2d249d31f503287a4438f3a6c3f78be15318b0f4cd4d1bd9830c12971ed766fa",
+  "source_name": "3077_自造作业说明.pdf",
+  "page_count": 3,
+  "document_id": "DEMO-WI-001",
+  "revision": "A",
+  "steps": [
+    {
+      "step_id": "001",
+      "title": "Open the fictional training panel",
+      "source_pages": [
+        1
+      ],
+      "instructions": "Open the fictional training panel described in this exercise. Keep the session in demonstration mode and do not connect to any operational system."
+    },
+    {
+      "step_id": "002",
+      "title": "Select the practice record",
+      "source_pages": [
+        1
+      ],
+      "instructions": "Select the sample record named TRAINING-ALPHA from the fictional record list. Confirm that its visible label says synthetic training data."
+    },
+    {
+      "step_id": "003",
+      "title": "Check the demonstration label",
+      "source_pages": [
+        1
+      ],
+      "instructions": "Read the demonstration label on the practice record. Compare the displayed document code with DEMO-WI-001 and leave all real records unchanged."
+    },
+    {
+      "step_id": "004",
+      "title": "Enter the sample session code",
+      "source_pages": [
+        1
+      ],
+      "instructions": "Enter the sample session code PRACTICE-001 in the training-only text field. Review the characters before continuing to the next fictional step."
+    },
+    {
+      "step_id": "005",
+      "title": "Review the simulated step list",
+      "source_pages": [
+        2
+      ],
+      "instructions": "Review the simulated step list in the training panel. Confirm that the list begins with step 001 and contains twelve fictional steps."
+    },
+    {
+      "step_id": "006",
+      "title": "Mark the practice item reviewed",
+      "source_pages": [
+        2
+      ],
+      "instructions": "Set the practice-only review flag for the selected sample item. Add no real approval or production status to any external application."
+    },
+    {
+      "step_id": "007",
+      "title": "Add a training-only comment",
+      "source_pages": [
+        2
+      ],
+      "instructions": "Add the comment Training example reviewed to the sample comment field. Keep personal details and real customer information out of the exercise."
+    },
+    {
+      "step_id": "008",
+      "title": "Save the temporary practice result",
+      "source_pages": [
+        2
+      ],
+      "instructions": "Save the fictional practice result in the demonstration session. Confirm that the training panel displays the sample saved indicator."
+    },
+    {
+      "step_id": "009",
+      "title": "Reopen the saved practice result",
+      "source_pages": [
+        3
+      ],
+      "instructions": "Reopen the saved sample result from the fictional session history. Verify that the practice session code and training-only comment are visible."
+    },
+    {
+      "step_id": "010",
+      "title": "Compare the displayed sample code",
+      "source_pages": [
+        3
+      ],
+      "instructions": "Compare the displayed sample code with PRACTICE-001. If the characters differ in this exercise, record the difference in a training-only note."
+    },
+    {
+      "step_id": "011",
+      "title": "Record the training completion note",
+      "source_pages": [
+        3
+      ],
+      "instructions": "Record the note Synthetic exercise complete in the sample result. This note documents only the fictional training session and is not a real work approval."
+    },
+    {
+      "step_id": "012",
+      "title": "Close the fictional training session",
+      "source_pages": [
+        3
+      ],
+      "instructions": "Review the saved practice result one final time and close the fictional session. The exercise ends without sending information to a real operational system."
+    }
+  ]
+}

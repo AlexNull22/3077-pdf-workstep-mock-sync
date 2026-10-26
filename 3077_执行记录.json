@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "source_sha256": "2d249d31f503287a4438f3a6c3f78be15318b0f4cd4d1bd9830c12971ed766fa",
+  "plan_sha256": "42a497671f95e7a46b5e3d69d42ec279b75ea6970f07b87e238f5b9ce17f48b5",
+  "endpoint": "http://127.0.0.1:5675",
+  "complete": true,
+  "attempted_writes": 8,
+  "verified_writes": 8,
+  "unchanged": 4,
+  "writes": [
+    {
+      "key": "DEMO-WI-001:005",
+      "action": "update",
+      "verified": true,
+      "response_recovered": false
+    },
+    {
+      "key": "DEMO-WI-001:006",
+      "action": "update",
+      "verified": true,
+      "response_recovered": false
+    },
+    {
+      "key": "DEMO-WI-001:007",
+      "action": "update",
+      "verified": true,
+      "response_recovered": false
+    },
+    {
+      "key": "DEMO-WI-001:008",
+      "action": "update",
+      "verified": true,
+      "response_recovered": false
+    },
+    {
+      "key": "DEMO-WI-001:009",
+      "action": "create",
+      "verified": true,
+      "response_recovered": false
+    },
+    {
+      "key": "DEMO-WI-001:010",
+      "action": "create",
+      "verified": true,
+      "response_recovered": false
+    },
+    {
+      "key": "DEMO-WI-001:011",
+      "action": "create",
+      "verified": true,
+      "response_recovered": false
+    },
+    {
+      "key": "DEMO-WI-001:012",
+      "action": "create",
+      "verified": true,
+      "response_recovered": false
+    }
+  ],
+  "error": null,
+  "extra_keys_preserved": [
+    "DEMO-WI-001:999"
+  ],
+  "remote_snapshot_after_sha256": "58cb84633d56d8acb28af612c2102b0969a75932b4e7f542d507a7d68c52103e"
+}

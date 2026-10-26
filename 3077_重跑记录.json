@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "source_sha256": "2d249d31f503287a4438f3a6c3f78be15318b0f4cd4d1bd9830c12971ed766fa",
+  "plan_sha256": "a76a9bc52147b8410dce01360e2cf0cdae416ae4ed93bcd0bd577210a4460e96",
+  "endpoint": "http://127.0.0.1:5675",
+  "complete": true,
+  "attempted_writes": 0,
+  "verified_writes": 0,
+  "unchanged": 12,
+  "writes": [],
+  "error": null,
+  "extra_keys_preserved": [
+    "DEMO-WI-001:999"
+  ],
+  "remote_snapshot_after_sha256": "58cb84633d56d8acb28af612c2102b0969a75932b4e7f542d507a7d68c52103e"
+}
